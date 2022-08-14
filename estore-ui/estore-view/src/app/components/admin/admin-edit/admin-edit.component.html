@@ -1,0 +1,26 @@
+<div *ngIf="product">
+    <h2>{{ product.name }} Details</h2>
+    <div>
+        <label for="product-imageURL">Product imageURL: </label>
+        <input id="product-name" [(ngModel)]="product.imageURL" placeholder="Product imageURL" /><br />
+        <img class="nd-placeholder-img card-img-top" [src]="product.imageURL" />
+    </div>
+    <div>
+        <label for="product-name">Product Name: </label>
+        <input id="product-name" [(ngModel)]="product.name" placeholder="Product Name" />
+    </div>
+    <div>
+        <label for="product-price">Product Price: </label>
+        <input id="product-price" [(ngModel)]="product.price" placeholder="Product Price" />
+    </div>
+    <div>
+        <label for="product-description">Product description: </label>
+        <input id="product-description" [(ngModel)]="product.description" placeholder="Product description" />
+    </div>
+    <button type="button" class="btn btn-sm btn-outline-primary product-btn" (click)="goBack()">
+    go back
+  </button>
+    <button type="button" class="btn btn-sm btn-outline-secondary product-btn" (click)="save()">
+    save
+  </button>
+</div>

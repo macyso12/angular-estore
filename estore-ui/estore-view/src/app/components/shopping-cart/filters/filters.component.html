@@ -1,0 +1,24 @@
+<div class="card filters">
+    <div class="card-header"><strong>Search</strong></div>
+
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="from">Name</label>
+                <input type="text" id="from" class="form-control" #searchBox (input)="search(searchBox.value)" />
+            </div>
+            <div class="form-group">
+                <label for="to ">Price</label>
+                <input type="number " id="to " class="form-control" />
+            </div>
+
+            <button class="btn-btn-primary btn-block btn-sm">Search</button>
+        </form>
+    </div>
+    <ul class="search-result">
+        <li *ngFor="let product of products$ | async">
+            {{ product.id }} {{ product.name }} ${{ product.price }}
+            <a routerLink="/detail/{{ product.id }}"> details </a>
+        </li>
+    </ul>
+</div>

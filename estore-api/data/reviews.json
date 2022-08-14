@@ -1,0 +1,23 @@
+[
+    {
+        "id": 11,
+        "productId": 12,
+        "userId": 11,
+        "rating": 5,
+        "comment": "excellent"
+    },
+    {
+        "id": 12,
+        "productId": 12,
+        "userId": 12,
+        "rating": 3,
+        "comment": "not bad"
+    },
+    {
+        "id": 13,
+        "productId": 14,
+        "userId": 13,
+        "rating": 1,
+        "comment": "terrible"
+    }
+]

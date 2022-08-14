@@ -1,0 +1,11 @@
+<div class="cart-item">
+    <span>{{ cartItem.productName }}</span> x<span>{{ cartItem.qty }}</span
+  >:
+
+  <!--It's a filter system, USD will show the dollar sign-->
+  <strong>{{ cartItem.qty * cartItem.price | currency: "USD" }}</strong>
+  <div *ngIf="cartItem.qty > 0">
+    <button (click)="handleRemoveFromCart()">delete</button>
+  </div>
+  <div *ngIf="cartItem.qty === 0"></div>
+</div>

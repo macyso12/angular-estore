@@ -1,0 +1,169 @@
+commit 0e8e8ef55a95a3c9ba9b574a24c1c0e047986bc1
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 22:04:45 2022 -0400
+
+    InventoryController: Changed create to check name as well -Greg
+
+commit 39d137bfb822312b9f540347f331ceaa4277fa90
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Wed Jun 15 20:56:23 2022 -0400
+
+    InventoryController.java: fix logic bug on check if array empty
+
+commit 6152385ce9637626bf565e9c4f55cd6ffb3feee3
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Wed Jun 15 20:46:36 2022 -0400
+
+    InventoryController: fix search function - Chen
+
+commit c233fdb2ce9533d3a08589e934c22c68f9e7b1e2
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Wed Jun 15 18:10:24 2022 -0400
+
+    Product.java: fix type formatter of product property price - Chen
+
+commit 3996280d825f37bd7df4eb1d51ab7b1fdcf66929
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 17:21:25 2022 -0400
+
+    update github.txt
+
+commit 1e66fa4847e9e368c807c8191aceb2475b807c91
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 17:17:00 2022 -0400
+
+    added product json, and updates on inventoryController - Macy
+
+commit ec394bf68ab0885e6db8d491f161c16f07e6d4e8
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 16:40:43 2022 -0400
+
+    inventoryFileDAO.java: Fixed error, put data in json file - Greg
+
+commit 9b2871c7ebdcbd4e5a590417eb13e508ef8eff45
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 16:29:26 2022 -0400
+
+    /estoreapi: Group code session, commit due to error - Greg/Chen/Macy
+
+commit f9808b4a0bb3b9cbb16fbc1cff539bf42f81b130
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Wed Jun 15 15:39:31 2022 -0400
+
+    Added InventoryFileDAO (#1)
+    
+    * /estoreapi: Created base files for the product feature - Greg
+    
+    * /estore: Adding imports from the herosapi, file headers - Greg
+    
+    * /estoreapi: Forgot to save a file - Greg
+    
+    * Product.java: Fully implemented, error on the JSon annotations - Greg
+    
+    * /estore: Refactored ProductDao to InventoryDao - Greg
+    
+    * InventoryDAO: Added methods to the interface, need to document - Greg
+    
+    * /Product.java: fix import name typo - Chen
+    
+    * changed deleteProduct into boolean func
+    
+    * added the inventoryFileDAO, fixed all the bugs
+    
+    * added @Componenets annotation - Macy
+    
+    * fixed typo
+    
+    Co-authored-by: greglynskey <gclynskey@outlook.com>
+    Co-authored-by: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+
+commit 15618de39a838408833d173e4b7e6f4dd3fbb7b0
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 07:03:00 2022 -0400
+
+    changed deleteProduct into boolean func
+
+commit bbcf7ff67c109110be2ed72ec63199381345be65
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Tue Jun 14 20:40:00 2022 -0400
+
+    /Product.java: fix import name typo - Chen
+
+commit 5fc0375e8c63df3f3a625a9e74088001f6d85e14
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 15:02:19 2022 -0400
+
+    InventoryDAO: Added methods to the interface, need to document - Greg
+
+commit eab14f1ee28c3cdba4567b072719eed745722181
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:39:49 2022 -0400
+
+     /estore: Refactored ProductDao to InventoryDao - Greg
+
+commit ac87b3bf92f622769460287f42cc3b3fd5e0c146
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:36:27 2022 -0400
+
+    Product.java: Fully implemented, error on the JSon annotations - Greg
+
+commit 6a2eb8bf85f9ae69eaa393cb1d64973ac725458a
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:18:49 2022 -0400
+
+    /estoreapi: Forgot to save a file - Greg
+
+commit 2610d46ba2b455635d3fab1699335de8c7e57e1f
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 13:43:46 2022 -0400
+
+    /estore: Adding imports from the herosapi, file headers - Greg
+
+commit 2c02e1b2602c13217d0befdceb1b0d0cc0e5b722
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 13:31:48 2022 -0400
+
+    /estoreapi: Created base files for the product feature - Greg
+
+commit e485dae5d71599cedca4f17858aea91dcd872b88
+Merge: e4e041c 371f194
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 22:17:32 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit e4e041cc9a7cc46ea46806e95acb63a4b9d82bd7
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 22:16:52 2022 -0400
+
+    README: Removing Member4 for Bill - Greg
+
+commit 371f194466cfd39ca28b595ad9fc6fc154d249e6
+Author: macyso12 <macyso12@gmail.com>
+Date:   Mon Jun 6 22:15:44 2022 -0400
+
+    updated names
+
+commit dbaa4700188d10763087f13d2866eb9168da2da2
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 11:34:05 2022 -0400
+
+    README: Name - Greg
+
+commit 9a7add9a77191a7310b43fb967f3a7279063e06a
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Fri Jun 3 09:36:50 2022 -0400
+
+    README: Name - Chen
+
+commit e8c2d9a2526e5c3dbc6c21d605f2a45c28fc89d9
+Author: macyso12 <macyso12@gmail.com>
+Date:   Fri Jun 3 09:06:36 2022 -0400
+
+    Add Name - Macy
+
+commit ac4be647309c42d37945c821de5b170534a09758
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Fri Jun 3 13:01:34 2022 +0000
+
+    Initial commit

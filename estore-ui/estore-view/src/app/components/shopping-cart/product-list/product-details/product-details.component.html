@@ -1,0 +1,12 @@
+<div *ngIf="product">
+    <h2>{{ product.name | uppercase }} Details</h2>
+    <img class="nd-placeholder-img card-img-top" [src]="product.imageURL" />
+    <div><span>Name: </span>{{ product.name }}</div>
+    <div><span>Price: </span>{{ product.price }}</div>
+    <div><span>Description: </span>{{ product.description }}</div>
+
+    <button type="button " class="btn btn-sm btn-outline-primary product-btn" (click)="goBack()">
+    go back
+  </button>
+    <app-written-review [productId]="product.id"></app-written-review>
+</div>

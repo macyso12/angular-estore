@@ -1,0 +1,843 @@
+commit cbc0ab700af5723962c849b92a19a45fd200f763
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Sat Jul 9 10:45:20 2022 -0400
+
+    product-item.component: add icon and click to wishlist - Macy (#29)
+
+commit b0e6632362f1f35f2e2d199a791da00af320ec21
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Fri Jul 8 10:12:44 2022 -0400
+
+    written-review.component: Updating for written review - Macy (#28)
+
+commit 30cee4332a91635a975fd607b37ca166d340a73a
+Merge: 3589946 35962f7
+Author: Chen Guo <89880799+ZTF-J1901@users.noreply.github.com>
+Date:   Thu Jul 7 11:08:26 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit 35899465e276688c4b0a739b28fdce3536db7170
+Author: Chen Guo <89880799+ZTF-J1901@users.noreply.github.com>
+Date:   Thu Jul 7 11:07:15 2022 -0400
+
+    EstoreApiApplicationTest: fixed coverage - Chen
+
+commit 35962f79cf7edca03353ba718a12a68c570cd2ce
+Merge: 3ca3b05 a777651
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 11:06:41 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit 3ca3b05a5f848a53bb0d17004b4e25eb9da870b0
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 11:06:35 2022 -0400
+
+    admin.component: minor changes - Macy
+
+commit 484841aacd30c731fab49fad6ced3edb182db981
+Author: Chen Guo <89880799+ZTF-J1901@users.noreply.github.com>
+Date:   Thu Jul 7 10:41:06 2022 -0400
+
+    UserController&Test: Fix get users coverage - Chen
+
+commit 921b9773300b889558896b35085eef2f26d71e7c
+Author: Chen Guo <89880799+ZTF-J1901@users.noreply.github.com>
+Date:   Thu Jul 7 10:36:21 2022 -0400
+
+    Product Test: add testSetImageURL() - Chen
+
+commit aec06dc08c237e2f4f95457dfbd045defbdb57e1
+Author: Chen Guo <89880799+ZTF-J1901@users.noreply.github.com>
+Date:   Thu Jul 7 10:30:57 2022 -0400
+
+    UserController&Test: Fix search user coverage - Chen
+
+commit a777651f258b2ad74f6cff2c564eb539ec81238c
+Merge: 8f88a4a dd040cf
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Thu Jul 7 09:39:44 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit 8f88a4ab3837723393417a87430ad450814ff93e
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Thu Jul 7 09:39:35 2022 -0400
+
+    users.json: Added more users for sprint demo - Greg
+
+commit dd040cf3fc6b653404313e98097b741c6856d852
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 07:30:48 2022 -0400
+
+    cart-component: attemp to fix cart total issue when delete from cart - Macy
+
+commit 6ce19418bf9b863d1371e249795a3f1a334a2636
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 07:13:30 2022 -0400
+
+    cart-item.component: attempt to solve the issue of reducing the total amount - Macy
+
+commit 2d942c5d3c84aad7745af7b302893fd47cb7db90
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 07:07:23 2022 -0400
+
+    cart-item.component: hide delete button when qty is 0 - Macy
+
+commit 3ff0592ba0d9aa92aeda7f6da3c396d462195ba8
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 06:54:25 2022 -0400
+
+    cart-items.comopnent: Add delete button to shopping cart - Macy
+
+commit f5b6ac8283036e39c2b875e6ebee20fb321ebf03
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 06:29:26 2022 -0400
+
+    admint-edit.component: improve UI - Macy
+
+commit 93a54eeba4f229257e4bc2bb38aef64622003c13
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 06:27:04 2022 -0400
+
+    admint-edit.component: add functions to update image, and admin form on the admi
+    n side to add images - Macy
+
+commit 29a0d5222713dd737d4df75c0a46c96170b736f3
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 06:20:46 2022 -0400
+
+    shopping.cart: Update with imageURL in view product and browse product - Macy
+
+commit 9cf2c9321b847a756ffd730393ad2935843f497a
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 06:07:02 2022 -0400
+
+    admin.component: Updated form required - Macy
+
+commit 5603c0f1cdbc9c29696651f6a63ce582b3675d57
+Merge: 360d58c cd8d082
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 05:50:54 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit 360d58c4fff62ff35ff06ccc895f31069c62f231
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jul 7 05:49:32 2022 -0400
+
+    filters.component.html: Add form control to find product - Macy
+
+commit cd8d082e06618e09d6c22d413fc405538979b1ef
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jul 6 23:59:05 2022 -0400
+
+    DesignDoc.md: Updated the design doc - Greg
+
+commit cbf82ed1dfd8fce76f994a3420ab41b926c652c1
+Merge: efcb5da f87936f
+Author: Greg_Lyskey <75799600+V4RR1K@users.noreply.github.com>
+Date:   Wed Jul 6 23:36:00 2022 -0400
+
+    Merge pull request #27 from SWEN-261-01/user-testing-and-debugging
+    
+    User testing and debugging
+
+commit f87936f34195d9561a11a83778c64a3aa1b67044
+Merge: b0cd64d efcb5da
+Author: Greg_Lyskey <75799600+V4RR1K@users.noreply.github.com>
+Date:   Wed Jul 6 23:35:40 2022 -0400
+
+    Merge branch 'main' into user-testing-and-debugging
+
+commit b0cd64d5c077ef450fffd70cca5d05fef28941b1
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jul 6 23:29:20 2022 -0400
+
+    Finalized user, manual and unit tests pass, ready to deploy
+
+commit 81d54836e4da96fd85b64975b140044237bbe5a1
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jul 6 09:37:27 2022 -0400
+
+    User.java: Added UserState to Ctor, refactored all applicable files - Greg
+
+commit efcb5da2e17ca97bf55c27cea9d66fe5f904b1a1
+Merge: 3e3025a 47a14ae
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Tue Jul 5 20:29:47 2022 -0400
+
+    Merge pull request #26 from SWEN-261-01/admin-list
+    
+    Admin - Add Product + Edit Product Details + Delete Product
+
+commit 47a14aee0ed173081a04dedecc7e7ee0c9c6e017
+Merge: 9701a13 2fb6bbc
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 20:01:59 2022 -0400
+
+    admin.component: display product list - Macy
+
+commit 9701a1381cd5b13b7077f7b7728dec6d661f07a5
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 19:53:23 2022 -0400
+
+    empty commit
+
+commit 2fb6bbcce2b291298e851a4bd1a750028c6061c2
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Tue Jul 5 19:24:07 2022 -0400
+
+    app.module: import missing AdminComponent - Chen
+
+commit 3e3025a244aae9351fdeebd87429cb11521732b6
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Tue Jul 5 18:23:19 2022 -0400
+
+    InventoryController&Test: Improvced  coverage - Chen
+
+commit 46f0bd416a786a556b0d46ba8da2a44c8c12ffaf
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 13:13:02 2022 -0400
+
+    admin.component: try to display list - not successful - Macy
+
+commit f2fa7d62f4dfdff614d2bdb5dc5b272f98cec816
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 12:36:07 2022 -0400
+
+    admin-edit.component: Add inputs for price and description - Macy'
+
+commit 0903525ac3c894809e732bd784093a9ce4f6efe0
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 12:04:06 2022 -0400
+
+    admin.component: updated code - Macy
+
+commit 70fe68996bc00766dbde2181c3990ca576f48e69
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 11:56:47 2022 -0400
+
+    products.json: updated a few products - Macy
+
+commit 960226b3606a74e2549d2c23e4bab3c8e3231bff
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 11:50:03 2022 -0400
+
+    admin.component: Add product function works - Macy
+
+commit 34ed7df15c6529f51bfc6de0965214f4bb601b79
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:35:15 2022 -0400
+
+    UserController.java: Tests for delete pass - Greg
+
+commit 22d8ecd9b82ad026f66ecb57861668cb8eba2f24
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:31:39 2022 -0400
+
+    UserController.java: Tests for update pass - Greg
+
+commit 90f72386755dd323e847efb6e3d922bb723e1cbc
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:27:53 2022 -0400
+
+    UserController: Tests for create pass - Greg
+
+commit fbe3c4e35e262281d36f6194462d5492c271aa7f
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:22:15 2022 -0400
+
+    UserController.java: Debugging - Greg
+
+commit f8b2e86c23c7c8974068b52d12a94c26b5e083bb
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:13:24 2022 -0400
+
+    User Tests: All tests conform to new naming conventions - Greg
+
+commit 70f74ad67ed0b5933bff6f93f6161a13c65c55d3
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 11:01:49 2022 -0400
+
+    UserControllerTest.java: Added to branch, conforming to chens rework - Greg
+
+commit f57cceb9513f4878f9fab09396106864a9974062
+Merge: cf01e5b 4f655c2
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Tue Jul 5 10:35:07 2022 -0400
+
+    Merge pull request #25 from SWEN-261-01/ui-product-detail
+    
+    Looks good
+
+commit 4f655c2114bdab6547e2e1cfec5203eeae52d28a
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 10:34:04 2022 -0400
+
+    product-item.component: updated to show product name instead - Macy
+
+commit cf01e5b26940f288afa70df2ffb552d72879f123
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jul 5 10:31:42 2022 -0400
+
+    Added last name in design - Greg
+
+commit 88c0074665ab9b238021275d8526e5ae9c0e7bd3
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 10:28:55 2022 -0400
+
+    DesignDoc.md: empty commit - Macy
+
+commit cbc2d13d1ed7e6327fed0ee99c2afd74c751f2b3
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 10:19:21 2022 -0400
+
+    product-details: updated buttons - Macy
+
+commit 795dbec9ae7d5f5470b177bc90e32d381e980fcb
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 10:17:20 2022 -0400
+
+    product-details: updated frontend to show prices, description - Macy
+
+commit c0d706915774ea9a7e98f2f04e78fe7d5c1e08be
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 10:14:16 2022 -0400
+
+    product-item: added frontend, to see product detials - Macy
+
+commit 7a8146b4a6a7c19dee32c733e6509b13d8741290
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Tue Jul 5 09:53:01 2022 -0400
+
+    register/component.html - finished frontend register form + form checking - Macy (#19)
+
+commit 3b9ccd6b819e01abd7f6b4306970c30e025996a3
+Author: macyso12 <macyso12@gmail.com>
+Date:   Tue Jul 5 09:52:10 2022 -0400
+
+    product.service: removed duplicate imports - Macy
+
+commit 6d4d791d44099586a81d6975c79f9fb32133c1af
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Tue Jul 5 09:48:32 2022 -0400
+
+    Products api connection (#24)
+    
+    * products-api-connection: set up basic api connection on getProducts and connect these to product-list components - Chen
+    
+    * merge products api connection into main - Chen
+    
+    * delete old api files - Chen
+    
+    * product.service: handleError - Chen
+    
+    * product.service: getProduct with id - Chen
+    
+    * product.service: searchProducts - Chen
+    
+    * product.service: add/updateProduct - Chen
+    
+    * Product: update with new property imageURL - Chen
+    
+    * InventoryFileDAO: update with new property imageURL - Chen
+    
+    * product.service: deleteProduct() - Chen
+    
+    * Merge branch 'testing' into products-api-connection - Chen
+    
+    * update testings for products - Chen
+    
+    Co-authored-by: So May See Macy <75864321+macyso12@users.noreply.github.com>
+
+commit 447af55839c5a9a2970516ccdd8412212afdea63
+Author: macyso12 <macyso12@gmail.com>
+Date:   Mon Jul 4 21:01:37 2022 -0400
+
+    product.service.ts: restore commits - Macy
+
+commit c66bce70b8bf3d98ae493d857e52cb3b122a4fc7
+Author: macyso12 <macyso12@gmail.com>
+Date:   Mon Jul 4 20:49:36 2022 -0400
+
+    product.service.ts: Updated product service.ts - Macy
+
+commit d9377f796660a65c0795dcdcf245938bb327c193
+Author: macyso12 <macyso12@gmail.com>
+Date:   Mon Jul 4 20:37:35 2022 -0400
+
+    product.ts: added product.ts - Macy
+
+commit 24e7e65bdbc7066fdef926e593ec88fe04e1306c
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sat Jul 2 16:07:20 2022 -0400
+
+    app-routing.modeul.ts: fixed product details routing - Macy
+
+commit 7138625153518a4c4af0ed2ee54fc9e2e73ba6e2
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sat Jul 2 15:59:02 2022 -0400
+
+    login.component.html: disable login button when fields are invalid - Macy
+
+commit 4140c3aeab6f5d172d9ed7af444a4de0cad58b62
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sat Jul 2 15:57:21 2022 -0400
+
+    admin folder: added component + routing to admin view - Macy
+
+commit 781b0f4b8bd2fc11f132e1a999046fc7f7862bbe
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Sat Jul 2 15:51:34 2022 -0400
+
+    login.component.ts: Add logic to login button - Macy (#21)
+
+commit b4ed3599201cfc8ef409e881679e48fe2e203d34
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 30 11:51:09 2022 -0400
+
+    product-details.component - generate component - Macy
+
+commit 94899300f49d9956fd6c97d2c1e65e97ab5a0298
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 29 19:15:37 2022 -0400
+
+    updated github.txt - Macy
+
+commit 56d4d5cc8a407d21665def834ea78cf6573501b9
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 29 19:14:54 2022 -0400
+
+    DesignDoc.md: updated design doc - high level write up for domain model - Macy
+
+commit fea274158c9d8e4c53d8aaae1bae6710948d6050
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 29 16:40:39 2022 -0400
+
+    DesignDoc.md: updated Acceptance Testing description - Macy
+
+commit c49dfcccd851cc412dceaf7e1e12b3fb60668d48
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Sun Jun 26 20:41:19 2022 -0400
+
+    Unit Testing - Chen (#12)
+    
+    * unit testing: init InventoryControllerTest.java - Chen
+    
+    * unit testing: init ProductTest.java - Chen
+    
+    * unit testing: init InventoryFileDAOTest.java - Chen
+    
+    * unit testing: init InventoryControllerTest.java - Chen
+    
+    * unit testing: init ProductTest.java - Chen
+    
+    * unit testing: init InventoryFileDAOTest.java - Chen
+    
+    * updated getProduct unit testing + adding essential libraries
+    
+    * updated getProudct unit test - Macy
+    
+    * InventoryContollerTest.java: updated createProduct unit test - Macy
+    
+    * ProductTest.java: updated testColr + testName - Macy
+    
+    * InventoryFileDAOTest: updated testCreateProduct - Macy
+    
+    * InventoryFileDAOTest: updated updateProduct test - Macy
+    
+    * InventoryFileDAOTest: done and passed testGetProduct - Chen
+    
+    * InventoryFileDAOTest: done and passed getProducts test - Chen
+    
+    * InventoryFileDAOTest: done and passed findProducts test - Chen
+    
+    * InventoryFileDAOTest: fixed id bugs on testCreate/UpdateProduct to fit the test - Chen
+    
+    * InventoryFileDAOTest: done and passed save product exception test - Chen
+    
+    Co-authored-by: macyso12 <macyso12@gmail.com>
+
+commit afcd8e7fe3c4ac797bf1ef7203264ae6510e3cdb
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sun Jun 26 11:27:07 2022 -0400
+
+    docs: upload updated domain model picture - Macy
+
+commit e9123c7ac64253de349f0e17a902b859a1872cb1
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sun Jun 26 11:09:04 2022 -0400
+
+    Designdoc.md: updated design document - Macy
+
+commit 2fca2cc0a58e85dece20b33e1a17fd200627d1ae
+Author: macyso12 <macyso12@gmail.com>
+Date:   Sun Jun 26 11:04:59 2022 -0400
+
+    DesignDoc.md: updated design document - Macy
+
+commit f61d9df32612259b32136852d0b21265ae60f87d
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 23 10:59:20 2022 -0400
+
+    login.component.html: updated login componenet, previous version got scratched but it's up and running now - Macy
+
+commit ab55d4694c783c57f29e020be05c505db541a1f8
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Thu Jun 23 09:54:42 2022 -0400
+
+    Login Form/Page (#8)
+    
+    * laid out major func, but still have bugs needs to fix, send help
+    
+    * fixed 2 bugs, still have 1 big bugs needs to be fixed - Macy
+    
+    * fixed the bugs, but the ui still needs work
+    
+    * updated github.txt
+    
+    * adding product to cart worksgit status - Macy
+    
+    * changed the filter into a search bar
+    
+    * updated github.txt
+    
+    * added routing, to navigate through screens
+    
+    * updated check out function, clear array show componenet - Macy
+    
+    * github.txt: changing commit message conventions - Macy
+
+commit 61dac754fc1f00d30beaf575acf0f3bb70009447
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 23 09:49:49 2022 -0400
+
+    login.component.html: updated router links - Macy
+
+commit 7ab98f54140469aa8984521fea5681c3de6ede74
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Thu Jun 23 09:47:02 2022 -0400
+
+    Angular routing (#6)
+    
+    * laid out major func, but still have bugs needs to fix, send help
+    
+    * fixed 2 bugs, still have 1 big bugs needs to be fixed - Macy
+    
+    * fixed the bugs, but the ui still needs work
+    
+    * updated github.txt
+    
+    * adding product to cart worksgit status - Macy
+    
+    * changed the filter into a search bar
+    
+    * updated github.txt
+    
+    * added routing, to navigate through screens
+
+commit 5e4e9d8d1c2de22c59946dd0518dd54022567af8
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Thu Jun 23 09:44:48 2022 -0400
+
+    Check out cart (#7)
+    
+    * laid out major func, but still have bugs needs to fix, send help
+    
+    * fixed 2 bugs, still have 1 big bugs needs to be fixed - Macy
+    
+    * fixed the bugs, but the ui still needs work
+    
+    * updated github.txt
+    
+    * adding product to cart worksgit status - Macy
+    
+    * changed the filter into a search bar
+    
+    * updated github.txt
+    
+    * added routing, to navigate through screens
+    
+    * updated check out function, clear array show componenet - Macy
+    
+    * github.txt: changing commit message conventions - Macy
+
+commit b99bf9b9c16fa8bd4dfbb0c68b64cbce2035b744
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Thu Jun 23 09:37:35 2022 -0400
+
+    Add To Cart Funionality (#5)
+    
+    * laid out major func, but still have bugs needs to fix, send help
+    
+    * fixed 2 bugs, still have 1 big bugs needs to be fixed - Macy
+    
+    * fixed the bugs, but the ui still needs work
+    
+    * updated github.txt
+    
+    * adding product to cart worksgit status - Macy
+    
+    * changed the filter into a search bar
+    
+    * updated github.txt
+
+commit cdce9123977831ad5c63d3d38851d486fdaf2567
+Merge: 691dd2e 3426754
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Sun Jun 19 10:40:11 2022 -0400
+
+    Merge pull request #4 from SWEN-261-01/product-list-UI
+    
+    Created Components - navigation, header, footer, product-list-ui
+
+commit 3426754aaa4cc295243a0efeeb44d117f09e8576
+Author: macyso12 <macyso12@gmail.com>
+Date:   Fri Jun 17 11:04:53 2022 -0400
+
+    github.txt: updated logs - Macy
+
+commit a092ceb0a06905dd47b8b62720e399a96d39bea2
+Author: macyso12 <macyso12@gmail.com>
+Date:   Fri Jun 17 11:02:10 2022 -0400
+
+    created product-list-UI, basic UI, filters, product list and cart on the side
+
+commit 0543357169bb8324358e3b1864d56f15083ba2cf
+Author: macyso12 <macyso12@gmail.com>
+Date:   Fri Jun 17 09:45:23 2022 -0400
+
+    created components - footer, header, nav and shoping-cart - Macy
+
+commit 691dd2e051989b0b438d42edd911b3f392ded3f0
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 16 11:49:18 2022 -0400
+
+    update github.txt
+
+commit 4816db098280538583b85df522fd2cc5acb86da5
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Thu Jun 16 10:23:39 2022 -0400
+
+    estore-ui: made angular workspace - Greg
+
+commit 8ca882281aca298b9626ccb4ba8a150883125b92
+Merge: 4e31530 7349e95
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Thu Jun 16 09:22:25 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit 4e315305dca350afe9a44471a67878008daceae6
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Thu Jun 16 09:19:00 2022 -0400
+
+    github.txt updated log - Greg
+
+commit 7349e954776d92e83f8f1b7744b06a0bce3fb689
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 16 09:17:50 2022 -0400
+
+    updated github.txt
+
+commit 9263e7ada3abca72bd2087ba58cdc654cdd01779
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 16 09:17:00 2022 -0400
+
+    products.json: updated products.json and added a few more products on it
+
+commit 821cf56a7a4cf44c0c03f8759b2206a5ee48d3f9
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 16 08:28:57 2022 -0400
+
+    updated github.txt
+
+commit 61cfdb280a9b5197bd95f8a7d9601abe22fe04c2
+Author: macyso12 <macyso12@gmail.com>
+Date:   Thu Jun 16 07:19:57 2022 -0400
+
+    updated github.txt - Macy
+
+commit 812cce4a2ef968d5697c264d7ec46b5ee7288cf2
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Thu Jun 16 06:52:47 2022 -0400
+
+    README.md: update - Chen
+
+commit cb87e78025ef5cf14bbf22a43c18f279436ba80e
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Thu Jun 16 06:33:42 2022 -0400
+
+    /estore-api: update comment and format - Chen
+
+commit 0e8e8ef55a95a3c9ba9b574a24c1c0e047986bc1
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 22:04:45 2022 -0400
+
+    InventoryController: Changed create to check name as well -Greg
+
+commit 39d137bfb822312b9f540347f331ceaa4277fa90
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Wed Jun 15 20:56:23 2022 -0400
+
+    InventoryController.java: fix logic bug on check if array empty
+
+commit 6152385ce9637626bf565e9c4f55cd6ffb3feee3
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Wed Jun 15 20:46:36 2022 -0400
+
+    InventoryController: fix search function - Chen
+
+commit c233fdb2ce9533d3a08589e934c22c68f9e7b1e2
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Wed Jun 15 18:10:24 2022 -0400
+
+    Product.java: fix type formatter of product property price - Chen
+
+commit 3996280d825f37bd7df4eb1d51ab7b1fdcf66929
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 17:21:25 2022 -0400
+
+    update github.txt
+
+commit 1e66fa4847e9e368c807c8191aceb2475b807c91
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 17:17:00 2022 -0400
+
+    added product json, and updates on inventoryController - Macy
+
+commit ec394bf68ab0885e6db8d491f161c16f07e6d4e8
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 16:40:43 2022 -0400
+
+    inventoryFileDAO.java: Fixed error, put data in json file - Greg
+
+commit 9b2871c7ebdcbd4e5a590417eb13e508ef8eff45
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Wed Jun 15 16:29:26 2022 -0400
+
+    /estoreapi: Group code session, commit due to error - Greg/Chen/Macy
+
+commit f9808b4a0bb3b9cbb16fbc1cff539bf42f81b130
+Author: So May See Macy <75864321+macyso12@users.noreply.github.com>
+Date:   Wed Jun 15 15:39:31 2022 -0400
+
+    Added InventoryFileDAO (#1)
+    
+    * /estoreapi: Created base files for the product feature - Greg
+    
+    * /estore: Adding imports from the herosapi, file headers - Greg
+    
+    * /estoreapi: Forgot to save a file - Greg
+    
+    * Product.java: Fully implemented, error on the JSon annotations - Greg
+    
+    * /estore: Refactored ProductDao to InventoryDao - Greg
+    
+    * InventoryDAO: Added methods to the interface, need to document - Greg
+    
+    * /Product.java: fix import name typo - Chen
+    
+    * changed deleteProduct into boolean func
+    
+    * added the inventoryFileDAO, fixed all the bugs
+    
+    * added @Componenets annotation - Macy
+    
+    * fixed typo
+    
+    Co-authored-by: greglynskey <gclynskey@outlook.com>
+    Co-authored-by: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+
+commit 15618de39a838408833d173e4b7e6f4dd3fbb7b0
+Author: macyso12 <macyso12@gmail.com>
+Date:   Wed Jun 15 07:03:00 2022 -0400
+
+    changed deleteProduct into boolean func
+
+commit bbcf7ff67c109110be2ed72ec63199381345be65
+Author: Chen_Guo <54894516+CirrusG@users.noreply.github.com>
+Date:   Tue Jun 14 20:40:00 2022 -0400
+
+    /Product.java: fix import name typo - Chen
+
+commit 5fc0375e8c63df3f3a625a9e74088001f6d85e14
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 15:02:19 2022 -0400
+
+    InventoryDAO: Added methods to the interface, need to document - Greg
+
+commit eab14f1ee28c3cdba4567b072719eed745722181
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:39:49 2022 -0400
+
+     /estore: Refactored ProductDao to InventoryDao - Greg
+
+commit ac87b3bf92f622769460287f42cc3b3fd5e0c146
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:36:27 2022 -0400
+
+    Product.java: Fully implemented, error on the JSon annotations - Greg
+
+commit 6a2eb8bf85f9ae69eaa393cb1d64973ac725458a
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 14:18:49 2022 -0400
+
+    /estoreapi: Forgot to save a file - Greg
+
+commit 2610d46ba2b455635d3fab1699335de8c7e57e1f
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 13:43:46 2022 -0400
+
+    /estore: Adding imports from the herosapi, file headers - Greg
+
+commit 2c02e1b2602c13217d0befdceb1b0d0cc0e5b722
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Tue Jun 14 13:31:48 2022 -0400
+
+    /estoreapi: Created base files for the product feature - Greg
+
+commit e485dae5d71599cedca4f17858aea91dcd872b88
+Merge: e4e041c 371f194
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 22:17:32 2022 -0400
+
+    Merge branch 'main' of https://github.com/SWEN-261-01/e-store-02-itsteamtwo
+
+commit e4e041cc9a7cc46ea46806e95acb63a4b9d82bd7
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 22:16:52 2022 -0400
+
+    README: Removing Member4 for Bill - Greg
+
+commit 371f194466cfd39ca28b595ad9fc6fc154d249e6
+Author: macyso12 <macyso12@gmail.com>
+Date:   Mon Jun 6 22:15:44 2022 -0400
+
+    updated names
+
+commit dbaa4700188d10763087f13d2866eb9168da2da2
+Author: greglynskey <gclynskey@outlook.com>
+Date:   Mon Jun 6 11:34:05 2022 -0400
+
+    README: Name - Greg
+
+commit 9a7add9a77191a7310b43fb967f3a7279063e06a
+Author: Chen Guo <cg2531@rit.edu>
+Date:   Fri Jun 3 09:36:50 2022 -0400
+
+    README: Name - Chen
+
+commit e8c2d9a2526e5c3dbc6c21d605f2a45c28fc89d9
+Author: macyso12 <macyso12@gmail.com>
+Date:   Fri Jun 3 09:06:36 2022 -0400
+
+    Add Name - Macy
+
+commit ac4be647309c42d37945c821de5b170534a09758
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Fri Jun 3 13:01:34 2022 +0000
+
+    Initial commit

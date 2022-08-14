@@ -1,0 +1,62 @@
+[
+    {
+        "id": 9,
+        "username": "macy",
+        "password": "2222",
+        "name": "Macy",
+        "email": "macy@mail.com",
+        "isAdmin": true,
+        "userState": "LOGGED_OUT",
+        "userName": "macy",
+        "userID": 9,
+        "admin": true
+    },
+    {
+        "id": 10,
+        "username": "greg",
+        "password": "1111",
+        "name": "Greg",
+        "email": "greg@mail.com",
+        "isAdmin": true,
+        "userState": "LOGGED_OUT",
+        "userName": "greg",
+        "userID": 10,
+        "admin": true
+    },
+    {
+        "id": 11,
+        "username": "serrini",
+        "password": "1343",
+        "name": "Serrini",
+        "email": "serrini@mail.com",
+        "isAdmin": false,
+        "userState": "LOGGED_OUT",
+        "userName": "serrini",
+        "userID": 11,
+        "admin": false
+    },
+    {
+        "id": 12,
+        "username": "joe",
+        "password": "1234",
+        "name": "Joe",
+        "email": "joe@mail.com",
+        "isAdmin": false,
+        "userState": "LOGGED_OUT",
+        "userName": "joe",
+        "userID": 12,
+        "admin": false
+    },
+    {
+        "id": 13,
+        "username": "alice",
+        "password": "1234",
+        "name": "Alice",
+        "email": "alice@mail.com",
+        "isAdmin": false,
+        "userState": "LOGGED_OUT",
+        "userName": "Alice",
+        "userID": 13,
+        "admin": false
+    }
+]

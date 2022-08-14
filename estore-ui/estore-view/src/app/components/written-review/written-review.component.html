@@ -1,0 +1,35 @@
+<h4 class="header">Customer Reviews</h4>
+<div *ngIf="reviews.length === 0" class="alert alert-info">
+    No review has been written
+</div>
+
+<ul *ngIf="reviews.length > 0" class="list-group">
+    <li *ngFor="let each of printReviews">
+        {{each}}
+    </li>
+</ul>
+
+<div *ngIf="currentUserService.isExistUser()">
+    <form #reviewForm="ngForm">
+        <h4>
+            {{ username }}'s review:
+        </h4>
+        <div class="form-group">
+            <label for="newReview">Review:</label>
+            <input id="newReview" class="form-control" name="newReview" #newReview="ngModel"
+                [(ngModel)]="model.newReview" #productReview required />
+            <span class="invalid-feedback">Product Review can't be blank.</span>
+
+            <label for="rating">Rating:</label>
+            <input id="rating" class="form-control" name="rating" #rating="ngModel" [(ngModel)]="model.rating"
+                #productRating required type="number" />
+            <span class="invalid-feedback">Rating can't be blank.</span>
+        </div>
+    </form>
+
+    <button type="button" class="add-button" (click)="
+      add(productReview.value, productRating.value);
+    ">
+        Add Review
+    </button>
+</div>

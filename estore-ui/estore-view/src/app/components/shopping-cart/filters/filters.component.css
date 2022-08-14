@@ -1,0 +1,29 @@
+.btn-btn-primary {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8%;
+    padding: 5px;
+    min-height: 40px;
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.card-header {
+    background-color: transparent;
+    padding: 10%;
+}
+
+.search-result {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,71 @@
+<h2>My Products</h2>
+
+<div>
+    <form #productForm="ngForm">
+        <div class="form-group">
+            <label for="newProduct">Product Name:</label>
+            <input id="newProduct" class="form-control" [ngClass]="{
+          'is-invalid':
+            (productForm.submitted && newProduct.invalid) ||
+            (newProduct.touched && newProduct.invalid)
+        }" name="newProduct" #newProduct="ngModel" [(ngModel)]="model.newProduct" #productName required />
+            <span class="invalid-feedback">Product Name can't be blank.</span>
+        </div>
+        <div class="form-group">
+            <label for="newDescription">Product Description:</label>
+            <input id="newDescription" class="form-control" [ngClass]="{
+          'is-invalid':
+            (productForm.submitted && newProduct.invalid) ||
+            (newDescription.touched && newDescription.invalid)
+        }" name="newDescription" #newDescription="ngModel" [(ngModel)]="model.newDescription" #productDescription required />
+            <span class="invalid-feedback">Product Description can't be blank.</span>
+        </div>
+        <div class="form-group">
+            <label for="newPrice">Product Price:</label>
+            <input id="newPrice" class="form-control" [ngClass]="{
+          'is-invalid':
+            (productForm.submitted && newProduct.invalid) ||
+            (newPrice.touched && newPrice.invalid)
+        }" name="newPrice" #newPrice="ngModel" [(ngModel)]="model.newPrice" #productPrice required />
+            <span class="invalid-feedback">Product Price can't be blank.</span>
+        </div>
+        <div class="form-group">
+            <label for="newURL">Product ImageURL:</label>
+            <input id="newURL" class="form-control" [ngClass]="{
+          'is-invalid':
+            (productForm.submitted && newProduct.invalid) ||
+            (newURL.touched && newURL.invalid)
+        }" name="newURL" #newURL="ngModel" [(ngModel)]="model.newURL" #productURL required />
+            <span class="invalid-feedback">Product ImageURL can't be blank.</span>
+        </div>
+    </form>
+
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button type="button" class="add-button" (click)="
+      add(
+        productName.value,
+        productDescription.value,
+        productPrice.value,
+        productURL.value
+      );
+      productName.value = '';
+      productDescription.value = '';
+      productPrice.value = '';
+      productURL.value = ''
+    ">
+    Add Product
+  </button>
+</div>
+
+<h2>List of Products</h2>
+<!--this part isn't working, products are not showing-->
+<ul class="products">
+    <li *ngFor="let product of products">
+        <a href="admin/{{ product.id }}">
+            <span class="badge">{{ product.id }}</span> {{ product.name }}
+        </a>
+        <button type="button " class="delete" title="delete hero " (click)="delete(product)">
+      x
+    </button>
+    </li>
+</ul>
